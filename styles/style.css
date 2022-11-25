@@ -8,18 +8,72 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+
+}
 
 .header {
+  margin: 0;
+  padding: 0;
+  position: relative;
   height: 100vh;
+  display: flex;
+  align-items: center;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+
   /* выше установили ограничения для секции */
+}
+.header__logo-place {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  width: 228px;
+  height: 32px;
+}
+
+.header__title {
+  position: absolute;
+  left: 64px;
+  width: 730px;
+  font-size: 102px;
+
+  font-weight: 600;
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+
+
+}
+
+.header__main-illustration img {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+  z-index:10;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position:absolute;
+  top: 64px;
+  right: 0;
+  z-index: 9;
   height: 568px;
   width: 568px;
+  background: rgb(3, 109, 248);
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -28,4 +82,12 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.feynman {
+  background-image: url('../images/feynman.png');
+  background-repeat: no-repeat;
+  width: 867px;
+  height: 637px;
+
 }
