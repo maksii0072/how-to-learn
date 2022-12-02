@@ -12,11 +12,13 @@
     <div class="page">
       <!-- ========================== header ============================== -->
       <header class="header">
-        <div class="logo logo_place_header">
-          <a href="#"
-            ><img src="images/logo/logo_place_header.svg" alt="Логотип_Яндекс"
-          /></a>
-        </div>
+        <a href="#"
+          ><img
+            class="logo logo_place_header"
+            src="images/logo/logo_place_header.svg"
+            alt="Логотип_Яндекс"
+        /></a>
+
         <h1 class="header__title">Научиться учиться</h1>
 
         <p class="header__subtitle">
@@ -34,22 +36,21 @@
         <div class="header__square-pic"></div>
       </header>
 
-      <div class="content">
+      <main class="content">
         <!-- ======================== description =============================== -->
         <section class="description">
           <div class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
             <div class="two-columns__main-text">
-              <div class="two-columns__paragraph">
-                <p>
-                  Ни в школе, ни в институте нас не учат тому, как правильно
-                  изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
-                  тренируемся решать однообразные задачи, чтобы лучше сдать
-                  тест, но часто в итоге это не дает нам реального знания.
-                  Зубрежка быстро выветривается и не приносит пользы.
-                </p>
-              </div>
-              <p class="two-columns__paragraph two-columns__paragraph-gap">
+              <p class="two-columns__paragraph">
+                Ни в школе, ни в институте нас не учат тому, как правильно
+                изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
+                тренируемся решать однообразные задачи, чтобы лучше сдать тест,
+                но часто в итоге это не дает нам реального знания. Зубрежка
+                быстро выветривается и не приносит пользы.
+              </p>
+
+              <p class="two-columns__paragraph">
                 <span class="two-columns__span-accent">Вывод:</span>
                 Учиться тоже нудно умет но почемуто-то мало где учат.Что с этим
                 делать?
@@ -64,8 +65,8 @@
         </section>
         <!-- ======================== digits ========================== -->
         <section class="digits">
-          <h2 class="digits__title">Цифры и факты</h2>
-          <h3 class="digits__subtitle">Про учебу и мозг</h3>
+          <h2 class="digits__section-title">Цифры и факты</h2>
+          <h3 class="digits__section-subtitle">Про учебу и мозг</h3>
           <ul class="table">
             <li class="table__cell">
               <h4 class="table__heading">86 миллиардов</h4>
@@ -76,7 +77,7 @@
               <p class="table__text">
                 Число нуждающихся в повышении квалификации
               </p>
-              <div class="table__text-margin">Всемирный Банк, 2017</div>
+              <p class="table__text">Всемирный Банк, 2017</p>
             </li>
 
             <li class="table__cell">
@@ -97,7 +98,8 @@
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства
               </p>
-              <div class="table__text-margin">Всемирный Банк, 2017</div>
+
+              <p class="table__text">Всемирный Банк, 2017</p>
             </li>
             <li class="table__cell">
               <h4 class="table__heading">17–20 лет</h4>
@@ -126,10 +128,12 @@
         </section>
         <!-- ======================= kaufman ========================== -->
         <section class="kaufman">
-          <h2 class="kaufman__title kaufman__title_theme_dark">
+          <h2 class="kaufman__section-title kaufman__section-title_theme_dark">
             Принципы обучения
           </h2>
-          <h3 class="kaufman__subtitle kaufman__subtitle_theme_dark">
+          <h3
+            class="kaufman__section-subtitle kaufman__section-subtitle_theme_dark"
+          >
             от Джоша Кауфмана
           </h3>
 
@@ -204,39 +208,34 @@
               </p>
             </li>
           </ul>
-          <img
-            class="kaufman__triangle"
-            src="images/content/kaufman-triangle.svg"
-            alt="Фоновый_Триугольник."
-          />
+          <div class="kaufman__triangle"></div>
         </section>
-      </div>
+      </main>
       <!-- ============================ footer =============================== -->
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
-            <div class="logo logo_place_footer">
-              <a href="#"
-                ><img
-                  src="images/logo/logo_place_footer.svg"
-                  alt="Логотип_Яндекс."
-              /></a>
-            </div>
+            <a href="#"
+              ><img
+                class="logo logo_place_footer"
+                src="images/logo/logo_place_footer.svg"
+                alt="Логотип_Яндекс."
+            /></a>
 
-            <div class="footer__author">&copy; Виктор Абанькин</div>
+            <h2 class="footer__author">&copy; Виктор Абанькин</h2>
           </div>
 
-          <div class="footer__column footer__column_info">
-            <div class="footer__column-heading">О Практикуме</div>
-            <div class="footer__column-links">
+          <div class="footer__column footer__column_content_info">
+            <h3 class="footer__column-heading">О Практикуме</h3>
+            <nav class="footer__column-links">
               <a class="footer__column-link" href="#">Главная</a>
               <a class="footer__column-link" href="#">Концепция</a>
               <a class="footer__column-link" href="#">Наставники</a>
-            </div>
+            </nav>
           </div>
-          <div class="footer__column footer__column_social">
-            <div class="footer__column-heading">Соцсети</div>
-            <div class="footer__column-links">
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Соцсети</h3>
+            <nav class="footer__column-links">
               <a class="footer__column-link" href="#"
                 ><img
                   class="footer__social-icon"
@@ -258,7 +257,7 @@
                   alt="Иконка_Тикто."
                 />TikTok</a
               >
-            </div>
+            </nav>
           </div>
         </div>
       </footer>
