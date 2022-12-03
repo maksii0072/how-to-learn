@@ -174,7 +174,7 @@
   font-weight: normal;
   line-height: 34px;
   text-align: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   width: 60%;
   margin: 20px auto 60px;
 
@@ -283,6 +283,7 @@
   background-color: #1f1f1f;
   overflow: hidden;
   color: #fff;
+
 }
 
 .kaufman__section-title {
@@ -347,9 +348,12 @@
 
 .kaufman__triangle {
   background-image: url('../images/content/kaufman-triangle.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
   top: 0px;
-  right: -200px;
+  right: -216px;
   width: 870px;
   height: 870px;
 
@@ -366,7 +370,6 @@
   min-height: 350px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   width: 90%;
 
 }
