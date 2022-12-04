@@ -79,7 +79,7 @@
 
 .header__main-illustration {
   position: absolute;
-  object-fit: fill;
+  object-fit: cover;
   object-position: center;
   right: 0;
   bottom: 0;
@@ -159,7 +159,7 @@
 
 }
 
-.digits__section-title {
+.section-title {
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
@@ -169,31 +169,33 @@
 
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
   text-align: center;
-  /* margin: 0 auto; */
   width: 60%;
   margin: 20px auto 60px;
 
 }
 
 .table {
+  margin: 0;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
   row-gap: 60px;
+  padding-left: 0;
+  list-style-type: none;
+  padding: 0;
 
 }
 
 
 
 .table__cell {
-  list-style-type: none;
   width: 250px;
 }
 
@@ -286,7 +288,7 @@
 
 }
 
-.kaufman__section-title {
+.section-title {
   position: relative;
   text-align: center;
   font-size: 60px;
@@ -299,14 +301,14 @@
 
 }
 
-.kaufman__section-subtitle {
+.section-subtitle {
   width: 60%;
   font-size: 24px;
   font-weight: normal;
   line-height: 1.15;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
+
+
 
 }
 
@@ -353,7 +355,7 @@
   background-size: contain;
   position: absolute;
   top: 0px;
-  right: -216px;
+  right: -195px;
   width: 870px;
   height: 870px;
 
@@ -371,6 +373,9 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 60px 0  40px 0 ;
 
 }
 
