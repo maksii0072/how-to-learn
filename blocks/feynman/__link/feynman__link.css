@@ -9,10 +9,6 @@
   text-decoration: none;
 
 }
-.feynman__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
 .feynman__link:hover {
   transition: all .6s;
   opacity: .6;
