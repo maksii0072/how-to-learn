@@ -1,0 +1,15 @@
+@import '/blocks/cards/cards.css';
+@import '/blocks/cards/__item/cards__item.css';
+@import '/blocks/cards/__title/cards__title.css';
+@import '/blocks/cards/__image/cards__image.css';
+
+
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 100px auto;
+
+
+}

@@ -1,0 +1,9 @@
+@import '/blocks/section-title/section-title.css';
+@import '/blocks/section-subtitle/section-subtitle.css';
+@import '/blocks/video/video.css';
+@import '/blocks/video/__iframes/video__iframes.css';
+@import '/blocks/video/__iframe/video__iframe.css';
+
+.video {
+  margin: 100px 0 auto;
+}

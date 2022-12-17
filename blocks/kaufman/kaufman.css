@@ -1,0 +1,22 @@
+@import '/blocks/rotation/rotation.css';
+@import '/blocks/table/__cell/_theme/table__cell_theme_dark.css';
+@import '/blocks/table/__heading/_theme/table__heading_theme_dark.css';
+@import '/blocks/table/__text/_theme/table__text_theme_dark.css';
+@import '/blocks/table/_theme/table_theme_dark.css';
+
+
+
+
+
+
+@import '/blocks/kaufman/__triangle/kaufman__triangle.css';
+
+
+.kaufman {
+  padding: 90px 0 90px 0;
+  position: relative;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  color: #fff;
+
+}
