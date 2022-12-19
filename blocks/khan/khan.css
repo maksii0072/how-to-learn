@@ -1,19 +1,16 @@
-@import '/blocks/khan/__title/khan__title.css';
-@import '/blocks/khan/__author/khan__author.css';
-@import '/blocks/khan/__quote-author/khan__quote-author.css';
-@import '/blocks/khan/__quote/khan__quote.css';
-@import '/blocks/khan/__quote-author-subline/khan__quote-author-subline.css';
-@import '/blocks/khan/__book-pic/khan__book-pic.css';
-@import '/blocks/khan-book-container/khan-book-container.css';
-@import '/blocks/khan/__buy-link/khan__buy-link.css';
-
-
-
-
+@import './__author/khan__author.css';
+@import './__title/khan__title.css';
+@import './__quote/khan__quote.css';
+@import './__author/khan__author.css';
+@import './__quote-author/khan__quote-author.css';
+@import './__quote-author-subline/khan__quote-author-subline.css';
+@import './__buy-link/khan__buy-link.css';
+@import '../khan-book-container/khan-book-container.css';
+@import '../khan-book-container/__book-pic/khan__book-pic.css';
 
 
 .khan {
-  width: 80%;
+  max-width: 80%;
   margin: 0 auto;
   margin-top: 105px;
 

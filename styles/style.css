@@ -1,12 +1,13 @@
-@import '/blocks/page/page.css';
-@import '/blocks/header/header.css';
-@import '/blocks/description/description.css';
-@import '/blocks/techniques/techniques.css';
-@import '/blocks/video/video.css';
-@import '/blocks/oakley/oakley.css';
-@import '/blocks/feynman/feynman.css';
-@import '/blocks/digits/digits.css';
-@import '/blocks/khan/khan.css';
-@import '/blocks/kaufman/kaufman.css';
-@import '/blocks/resources/resources.css';
-@import '/blocks/footer/footer.css';
+@import '../blocks/page/page.css';
+@import '../blocks/header/header.css';
+@import '../blocks/description/description.css';
+@import '../blocks/techniques/techniques.css';
+@import '../blocks/video/video.css';
+@import '../blocks/oakley/oakley.css';
+@import '../blocks/feynman/feynman.css';
+@import '../blocks/digits/digits.css';
+@import '../blocks/khan/khan.css';
+@import '../blocks/kaufman/kaufman.css';
+@import '../blocks/resources/resources.css';
+@import '../blocks/footer/footer.css';
+

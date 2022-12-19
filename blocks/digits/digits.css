@@ -1,10 +1,11 @@
-@import '/blocks/section-title/section-title.css';
-@import '/blocks/section-subtitle/section-subtitle.css';
-@import '/blocks/table/table.css';
-@import '/blocks/table/__cell/table__cell.css';
-@import '/blocks/table/__heading/table__heading.css';
-@import '/blocks/table/__text-margin/table__text-margin.css';
-@import '/blocks/table/__text/table__text.css';
+@import '../section-title/section-title.css';
+@import '../section-subtitle/section-subtitle.css';
+@import '../table/table.css';
+@import '../table/__cell/table__cell.css';
+@import '../table/__heading/table__heading.css';
+@import '../table/__text/table__text.css';
+@import '../table/__text-margin/table__text-margin.css';
+
 
 
 .digits {

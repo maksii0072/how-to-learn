@@ -1,7 +1,7 @@
-@import '/blocks/feynman/__title/feynman__title.css';
-@import '/blocks/feynman/__subtitle/feynman__subtitle.css';
-@import '/blocks/feynman/__img/feynman__img.css';
-@import '/blocks/feynman/__link/feynman__link.css';
+@import './__title/feynman__title.css';
+@import './__subtitle/feynman__subtitle.css';
+@import './__link/feynman__link.css';
+@import './__img/feynman__img.css';
 
 
 

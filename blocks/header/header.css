@@ -1,11 +1,12 @@
-@import '/blocks/logo/logo.css';
-@import '/blocks/logo/_place/logo_place_header.css';
-@import '/blocks/header/__title/header__title.css';
-@import '/blocks/header/__subtitle/header__subtitle.css';
-@import '/blocks/header/__link/header__link.css';
-@import '/blocks/header/__square-pic/header__square-pic.css';
-@import '/blocks/header/__main-illustration/header__main-illustration.css';
-@import '/blocks/rotation/rotation.css';
+@import '../logo/logo.css';
+@import '../logo/_place/logo_place_header.css';
+@import './__title/header__title.css';
+@import './__subtitle/header__subtitle.css';
+@import './__link/header__link.css';
+@import './__main-illustration/header__main-illustration.css';
+@import './__square-pic/header__square-pic.css';
+@import '../rotation/rotation.css';
+
 
 .header {
   position: relative;
@@ -19,4 +20,6 @@
   background-color: #f2f2f2;
   overflow: hidden;
 
+
+  /* выше установили ограничения для секции */
 }
