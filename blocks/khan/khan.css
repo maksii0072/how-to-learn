@@ -10,6 +10,7 @@
 
 
 .khan {
+  box-sizing: border-box;
   max-width: 80%;
   margin: 0 auto;
   margin-top: 105px;

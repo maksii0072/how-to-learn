@@ -4,6 +4,7 @@
 @import '../two-columns/__paragraph/two-columns__paragraph.css';
 
 .oakley {
+  box-sizing: border-box;
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;

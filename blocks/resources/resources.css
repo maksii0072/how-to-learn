@@ -4,5 +4,6 @@
 @import './__logo-zone/resources__logo-zone.css';
 
 .resources {
+  box-sizing: border-box;
   margin: 100px auto 217px;
 }

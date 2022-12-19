@@ -4,5 +4,6 @@
 @import './__iframe/video__iframe.css';
 
 .video {
+  box-sizing: border-box;
   margin: 100px 0 auto;
 }
