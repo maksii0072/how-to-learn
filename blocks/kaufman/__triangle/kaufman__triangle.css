@@ -5,9 +5,7 @@
   background-size: contain;
   position: absolute;
   top: 0px;
-  right: -195px;
+  right: -210px;
   width: 870px;
   height: 870px;
-  animation: rotation 20s linear infinite;
-
 }

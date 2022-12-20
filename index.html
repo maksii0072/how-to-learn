@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <title>Научиться учиться</title>
   </head>
@@ -36,7 +35,7 @@
           alt="Мальчик_с_собачкой"
         />
 
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
 
       <main class="content">
@@ -147,12 +146,14 @@
           <div class="video__iframes">
             <iframe
               class="video__iframe"
+              frameborder="0"
               allowfullscreen
               src="https://www.youtube.com/embed/5MgBikgcWnY"
             ></iframe>
 
             <iframe
               class="video__iframe"
+              frameborder="0"
               allowfullscreen
               src="https://www.youtube.com/embed/arj7oStGLkU"
             ></iframe>
@@ -245,8 +246,8 @@
         <!-- ========== khan ======================= -->
         <section class="khan">
           <div class="khan__container">
-            <h2 class="khan__author">Салман Хан</h2>
-            <h3 class="khan__title">Весь мир — школа</h3>
+            <p class="khan__author">Салман Хан</p>
+            <h2 class="khan__title">Весь мир — школа</h2>
             <p class="khan__quote">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов
               студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
@@ -254,9 +255,9 @@
               получить навыки и знания, которые приносят успех в школе, карьере
               и жизни.
             </p>
-            <h3 class="khan__quote-author">Джордж Лукас</h3>
+            <p class="khan__quote-author">Джордж Лукас</p>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-            <div class="khan-book-container">
+            <div class="khan__book-container">
               <img
                 class="khan__book-pic"
                 src="images/cards/khan-book.jpg"
@@ -349,7 +350,7 @@
               </p>
             </li>
           </ul>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
         </section>
         <!-- =========== resources ==================== -->
         <section class="resources">
